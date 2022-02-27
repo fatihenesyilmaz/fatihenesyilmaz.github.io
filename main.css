@@ -4,11 +4,13 @@
     text-align: center;
     text-transform: uppercase;
     position: absolute;
-    top: 60%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
+
+
 
 #backgroundbody{
     background-repeat: no-repeat;
@@ -44,6 +46,7 @@ section{
 
 h1{
     font-size: 5rem;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     border: 3px solid #fff;
@@ -67,12 +70,10 @@ h1{
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
   }
   
   /* Add a hover effect if you want */
