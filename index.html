@@ -8,16 +8,40 @@
     <title>Fatih Enes Yılmaz</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
+    
 </head>
 
 
 <body>  
+
+
+    
+    
     <section>
-        <h1>Fatih Enes Yılmaz</h1>
+        <div class='time-frame'> 	<div id='tarih-bolumu'></div> 	<div id='saat-bolumu'></div> </div><style type="text/css"> 	.time-frame { 	color: white;	background-color: #ffffff00; 		color: rgb(255, 255, 255); 		width: auto; 		min-width: 160px; 		font-family: Arial; 		margin:0 auto; 		display:table; 		padding:10px 10px; 		 		-webkit-border-radius: 5px; 		-moz-border-radius: 5px; 		border-radius: 5px; 	}  	.time-frame > div { 		width: 100%; 		text-align: center; 	}  	#tarih-bolumu { 		font-size: 20px; 		color:#ffffff; 	} 	#saat-bolumu { 		font-size: 20px; 		line-height: 30px; 		margin-top:5px; 	} </style><script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script> <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script> <script type="text/javascript">
+            $(window).load(function(){
+                $(document).ready(function() {
+                    var interval = setInterval(function() {
+                        var momentNow = moment();
+                        $('#tarih-bolumu').html(momentNow.format('DD.MM.YYYY'));
+                        $('#saat-bolumu').html(momentNow.format('hh:mm:ss'));
+                    }, 100);
+                });
+            });
+        </script>
+        
+        <h1>Fatih Enes Yılmaz
+        </h1>
+        
+
+       
     </section>
     
+    
+
     <div id="textbody">
+       
         <br><br> <br> <br> <br>
         <p>SOFTWARE DEVELOPER</p>
         <div>
@@ -36,7 +60,9 @@
 
         </div>
     </div>
-
+    
+    
+    
 </body>
 
 </html>
